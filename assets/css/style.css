@@ -1,0 +1,30 @@
+body{
+	margin: 0;
+}
+.full-section{
+	display: flex;
+}
+.left-section,.right-section{
+	min-width: 50%;
+}
+.left-section img{
+	min-width: 100%;
+}
+.section-right-content{
+  margin-top: 5%;
+  margin-left: 7%;
+  margin-right: 5%;
+}
+.section-right-content h2{
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 2.5%;
+}
+.section-right-content h2 span{
+	color: #18B4FF;
+}
+.section-right-content p{
+	width: 90%;
+	color: #a9a9a9;
+	line-height: 28px;
+}
