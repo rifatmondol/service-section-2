@@ -11,16 +11,16 @@ body{
 	min-width: 100%;
 }
 .section-right-content{
-  margin-top: 5%;
+  margin-top: 4%;
   margin-left: 7%;
   margin-right: 5%;
 }
-.section-right-content h2{
+.section-right-heading h2{
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-bottom: 2.5%;
 }
-.section-right-content h2 span{
+.section-right-heading h2 span{
 	color: #18B4FF;
 }
 .section-right-content p{
@@ -28,3 +28,47 @@ body{
 	color: #a9a9a9;
 	line-height: 28px;
 }
+
+/* bootstrap css */
+.card{
+	margin-bottom: 15px;
+	border: 1px solid #f1f1f1;
+	border-radius: 0px;
+}
+.card-header{
+	background: inherit;
+	border: none;
+	padding: 0;
+}
+.card-header h2{
+	line-height: 0;
+}
+.btn-link{
+	color: #2F2F2F;
+	font-weight: 500;
+	width: 100%;
+  text-align: left;
+  position: relative;
+  text-decoration: none!important;
+}
+.btn-link:hover{
+	text-decoration: none;
+}
+.card-body{
+	padding: 0;
+	margin-left: 2%;
+	margin-bottom: 2%;
+	line-height: 30px;
+}
+.fa-angle-up,.fa-angle-down{
+	position: absolute;
+  left: 95%;
+  top: 18%;
+  font-size: 25px;
+  color: #8e8e8de0;
+  font-weight: 200;
+}
+.fa-angle-down{
+  display: none;
+}
+
