@@ -70,15 +70,29 @@ body{
 	margin-bottom: 2%;
 	line-height: 30px;
 }
-.fa-angle-up,.fa-angle-down{
+/* .fa-angle-up{
 	position: absolute;
   left: 95%;
-  top: 18%;
   font-size: 25px;
   color: #8e8e8de0;
   font-weight: 200;
 }
-.fa-angle-down{
-  display: none;
+.accordion-section .card .card-header button:not(.collapsed) .rotate-icon{
+	transform: rotate(180deg);
 }
+.accordion-section .card .card-header button:not(.collapsed) .rotate-icon,.accordion-section .card .card-header button .rotate-icon{
+	transition: all linear 0.25s;
+} */
 
+button[data-toggle="collapse"]:before{
+	font-family: "Font Awesome 5 Pro";
+	content: "\f106";
+	position: absolute;
+  right: 20px;
+  transform: rotate(180deg);
+	transition: all linear 0.25s;
+}
+button[data-toggle="collapse"].collapsed:before{
+	transform: rotate(0deg);
+	font-size: 20px;
+}
